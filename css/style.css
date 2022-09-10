@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-image: linear-gradient(rgb(247, 248, 253),rgb(145, 145, 222),rgb(152, 105, 218));
+    height: 100vh;
+}
+.logo{
+    display: block;
+    height: 50px;
+    margin: 0px auto;
+    width: 50px;
+    /* background-color: rgb(160, 160, 234);  */
+    /* text-align: center; */
+    padding-top: 8px;
+}
+h1
+{
+    margin: 2px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.chatbox
+{
+    border: 2px solid black;
+    height: 55vh;
+    max-width: 750px;
+    padding: 15px 6px;
+    overflow-y: auto;
+    margin: auto;
+}
+.rightbox
+{
+    float: right;
+    clear: both;
+    border: 2px solid black;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(199, 191, 191);
+    font-size: 1.2rem;
+    margin:8px 15px;
+}
+.leftbox
+{
+    float: left;
+    clear: both;
+    border: 2px solid black;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(199, 191, 191);
+    font-size: 1.2rem;
+    margin:8px 15px;
+}
+#send-container
+{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 830px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#send-container input
+{
+    width: 69%;
+    padding: 5px 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.18rem;
+}
+#send-container .btn
+{
+    font-size: 16px;
+    padding: 5px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 2px;
+    width: 55px;
+}
